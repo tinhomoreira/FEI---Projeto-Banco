@@ -12,5 +12,9 @@ struct Cliente {
 void novo_cliente(struct Cliente *clientes, int *numClientes);
 void apaga_cliente(struct Cliente *clientes, int *numClientes);
 void listar_clientes(struct Cliente *clientes, int numClientes);
+void debito(struct Cliente *clientes, int numClientes);
+void deposito(struct Cliente *clientes, int numClientes);
+void extrato(struct Cliente *clientes, int numClientes);
+void transferencia(struct Cliente *clientes, int numClientes);
 
 #endif
